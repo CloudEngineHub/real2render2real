@@ -140,7 +140,7 @@ from vitpose_model import ViTPoseModel
 NVCC_FLAGS="-gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_80,code=sm_80" pip install git+https://github.com/nerfstudio-project/gsplat.git@v1.4.0
 ``` 
 - Viser import "No module named 'websockets.asyncio': Consult [asyncio_error.md](asyncio_error.md) for steps to debug.
-- Cannot import cmake when running `./isaaclab.sh --install`: try to make sure it is pointing to a compiled cmake and not one installed from pip. 
+- Cannot import cmake when running `./isaaclab.sh --install` or `egl_probe error`: try to make sure it is pointing to a compiled cmake and not one installed from pip. Also try to run `./isaaclab_alt.sh --install` 
 
 ## Bibtex
 If you find this useful, please cite the paper!
