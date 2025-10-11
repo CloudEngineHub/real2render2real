@@ -1,7 +1,7 @@
 
 # Script issues
 #### Viser import "No module named 'websockets.asyncio'
-If you are running any script that inherits `xi/base.py` and a line importing viser after launching an isaacsim app results in
+If you are running any script that inherits `base.py` and a line importing viser after launching an isaacsim app results in
 
 ```bash
 ModuleNotFoundError: No module named 'websockets.asyncio'
